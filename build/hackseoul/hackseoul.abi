@@ -1,0 +1,170 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "trdycompnay",
+            "base": "",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "owner",
+                    "type": "string"
+                },
+                {
+                    "name": "owner_photo",
+                    "type": "string"
+                },
+                {
+                    "name": "phone",
+                    "type": "string"
+                },
+                {
+                    "name": "address",
+                    "type": "string"
+                },
+                {
+                    "name": "license_number",
+                    "type": "string"
+                },
+                {
+                    "name": "business_Number",
+                    "type": "string"
+                },
+                {
+                    "name": "created_at",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "trdypipeline",
+            "base": "",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "string"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "name": "company_id",
+                    "type": "string"
+                },
+                {
+                    "name": "product_item_id",
+                    "type": "string"
+                },
+                {
+                    "name": "created_at",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "trdyproditem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "string"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "product_id",
+                    "type": "string"
+                },
+                {
+                    "name": "model_number",
+                    "type": "string"
+                },
+                {
+                    "name": "created_at",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "trdyproduct",
+            "base": "",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "string"
+                },
+                {
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "name": "company_id",
+                    "type": "string"
+                },
+                {
+                    "name": "created_at",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "txrec",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "trdycompnay",
+            "type": "trdycompnay",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "trdypipeline",
+            "type": "trdypipeline",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "trdyproditem",
+            "type": "trdyproditem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "trdyproduct",
+            "type": "trdyproduct",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "pipeline",
+            "type": "txrec",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

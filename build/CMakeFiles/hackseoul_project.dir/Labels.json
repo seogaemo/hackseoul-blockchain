@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/root/hackseoul/build/CMakeFiles/hackseoul_project"
+		},
+		{
+			"file" : "/root/hackseoul/build/CMakeFiles/hackseoul_project.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/CMakeFiles/hackseoul_project-complete.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-install.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-mkdir.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-download.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-update.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-patch.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-configure.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-build.rule"
+		},
+		{
+			"file" : "/root/hackseoul/build/hackseoul_project-prefix/src/hackseoul_project-stamp/hackseoul_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hackseoul_project"
+		],
+		"name" : "hackseoul_project"
+	}
+}
